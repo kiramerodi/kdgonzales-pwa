@@ -4,11 +4,14 @@ const assets = [
   "/index.html",
   "/styles.css",
   "/js/main.js",
-  "/images/about.jpg",
-  "/images/home.jpg",
-  "/images/plate1.jpg",
-  "/images/plate2.jpg",
-  "/images/plate3.jpg"
+  "/images/about-sinigang.jpg",
+  "/images/adobong-baboy.png",
+  "/images/adobong-manok.png",
+  "/images/bicol-express.png",
+  "/images/bistek-tagalog.png",
+  "/images/dinuguan.png",
+  "/images/pancit-bihon.png",
+  "/images/sinigang-na-baboy.png"
 ];
 
 self.addEventListener("install", installEvent => {
