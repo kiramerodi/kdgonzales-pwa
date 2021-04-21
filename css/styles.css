@@ -62,24 +62,6 @@ html{
   scroll-behavior: smooth;
 }
 
-/*========== Variables Dark theme ==========*/
-body.dark-theme{
-  --title-color: #F1F3F2;
-  --text-color: #C7D1CC;
-  --body-color: #1D2521;
-  --container-color: #27302C;
-}
-
-/*========== Button Dark/Light ==========*/
-.change-theme{
-  position: absolute;
-  right: 1rem;
-  top: 1.8rem;
-  color: var(--text-color);
-  font-size: 1rem;
-  cursor: pointer;
-}
-
 body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
@@ -210,11 +192,6 @@ img{
 /* Active menu */
 .active-link{
   color: var(--first-color);
-}
-
-/* Change background header */
-.scroll-header{
-  box-shadow: 0 2px 4px rgba(0,0,0,.1);
 }
 
 /* Scroll top */
@@ -418,30 +395,6 @@ img{
   display: flex;
 }
 
-/*========== FOOTER ==========*/
-.footer__container{
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  row-gap: 2rem;
-}
-
-.footer__logo{
-  font-size: var(--h3-font-size);
-  color: var(--first-color);
-  font-weight: var(--font-semi-bold);
-}
-
-.footer__description{
-  display: block;
-  font-size: var(--small-font-size);
-  margin: .25rem 0 var(--mb-3);
-}
-
-.footer__social{
-  font-size: 1.5rem;
-  color: var(--title-color);
-  margin-right: var(--mb-2);
-}
-
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
   .home__container,
@@ -481,11 +434,6 @@ img{
   }
   .nav__toggle{
     display: none;
-  }
-
-  .change-theme{
-    position: initial;
-    margin-left: var(--mb-2);
   }
 
   .home__container{
