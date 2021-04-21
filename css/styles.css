@@ -217,7 +217,7 @@ img{
   justify-self: center;
 }
 
-/* The Modal (background) */
+/*========== The Modal (background) ==========*/
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -232,9 +232,9 @@ img{
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content */
+/*========== Modal Content ==========*/
 .modal-content {
-  background-color: #fefefe;
+  background-color: var(--container-color);
   margin: auto;
   border: 1px solid #888;
   width: 50%;
@@ -243,37 +243,39 @@ img{
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #000000;
+  background-color: var(--first-color);
   color: white;
 }
 
 .modal-body {
-	padding: 2px 16px;
-	height: 70%;
+  padding: 2px 16px;
+  height: 70%;
 }
 
 .modal-footer {
   padding: 2px 16px;
-  background-color: #000000;
+  background-color: var(--first-color);
   color: white;
   height: 13%;
 }
 
-/* The Close Button */
+/*========== The Close Button ==========*/
 .close {
   color: #FFF;
   float: right;
   font-size: 28px;
   font-weight: bold;
   padding: .75rem 1rem;
+  background-color: var(--first-color);
 }
 
 .orderBtn {
-  color: #aaaaaa;
+  color: #FFF;
   float: left;
   font-size: 15px;
   font-weight: bold;
   padding: 4px 4px 5px 2px;
+  background-color: var(--first-color);
 }
 
 .close:hover,
@@ -448,3 +450,14 @@ img{
         height: 640px;
     }
 }
+
+
+
+
+
+/* 
+
+Citation:
+Bedimcode (2020) Website HTML CSS JS [Source code]. https://github.com/bedimcode
+
+*/

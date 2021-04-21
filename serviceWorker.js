@@ -26,3 +26,14 @@ self.addEventListener("fetch", fetchEvent => {
     })
   );
 });
+
+
+
+
+
+/* 
+
+Citation:
+Ibrahima Ndaw (2020) How to build a PWA from scratch with HTML, CSS, and JavaScript [Source code]. github.com/ibrahima92/pwa-with-vanilla-js
+
+*/

@@ -325,3 +325,13 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+
+
+/* 
+
+Citation:
+Bedimcode (2020) Website HTML CSS JS [Source code]. github.com/bedimcode
+
+*/
