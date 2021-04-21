@@ -261,11 +261,11 @@ img{
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #FFF;
   float: right;
   font-size: 28px;
   font-weight: bold;
-  padding: 2px 16px;
+  padding: .75rem 1rem;
 }
 
 .orderBtn {
@@ -281,6 +281,7 @@ img{
   color: #000;
   text-decoration: none;
   cursor: pointer;
+  background-color: var(--first-color-alt);
 }
 
 /*========== BUTTONS ==========*/
@@ -334,7 +335,7 @@ img{
   margin-bottom: var(--mb-2);
 }
 
-.menu__name, .menu__preci{
+.menu__name, .menu__price{
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
@@ -343,7 +344,7 @@ img{
   font-size: var(--normal-font-size);
 }
 
-.menu__detail, .menu__preci{
+.menu__detail, .menu__price{
   font-size: var(--small-font-size);
 }
 
